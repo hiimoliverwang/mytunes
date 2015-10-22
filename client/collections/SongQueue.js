@@ -20,10 +20,4 @@ var SongQueue = Songs.extend({
   playFirst: function(){
     this.at(0).play();
   }
-  // enqueue: function(song){
-  //   // ???????????
-  //   this.add(song);
-  //   console.log(this);  
-
-  // }
 });
